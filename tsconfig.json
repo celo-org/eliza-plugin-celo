@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "rootDir": "./src",
+        "typeRoots": ["./node_modules/@types", "./src/types"],
+        "declaration": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "paths": {
+            "@elizaos/core": ["node_modules/@elizaos/core"]
+        }
+    },
+    "include": ["src"]
+}
